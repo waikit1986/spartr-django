@@ -118,23 +118,24 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'spartr',  # Replace with your PostgreSQL database name
-        'USER': 'lowwaikit',  # Replace with your PostgreSQL username
-        'PASSWORD': '61Me&Buddha',  # Replace with your PostgreSQL password
-        'HOST': 'localhost',  # Or your database host
-        'PORT': '5432',  # Default PostgreSQL port
-    }
-
+    
     # 'default': {
     #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'spartr',
-    #     'USER': 'postgres',
-    #     'PASSWORD': '61Me&Buddha',
-    #     'HOST': 'database-1.ck3m4eksip0g.us-east-1.rds.amazonaws.com',
-    #     'PORT': '5432',
+    #     'NAME': 'spartr',  # Replace with your PostgreSQL database name
+    #     'USER': 'lowwaikit',  # Replace with your PostgreSQL username
+    #     'PASSWORD': '61Me&Buddha',  # Replace with your PostgreSQL password
+    #     'HOST': 'localhost',  # Or your database host
+    #     'PORT': '5432',  # Default PostgreSQL port
     # }
+
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'spartr',
+        'USER': 'postgres',
+        'PASSWORD': '61Me&Buddha',
+        'HOST': 'database-1.ck3m4eksip0g.us-east-1.rds.amazonaws.com',
+        'PORT': '5432',
+    }
 }
 
 # Password validation
